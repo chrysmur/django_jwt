@@ -3,6 +3,7 @@
 ### Getting the Access and Refresh token
 - Create a superuser
 http post http://127.0.0.1:8000/api/token/ username=name password=pass
+
 HTTP/1.1 200 OK
 Allow: POST, OPTIONS
 Content-Length: 438
