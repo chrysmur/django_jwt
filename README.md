@@ -23,7 +23,7 @@ $ http post http://127.0.0.1:8000/api/token/refresh/ refresh="eyJ0eXAiOiJKV1QiLC
 }
 
 ### Calling hello endpoint with the valid token
-http http://127.0.0.1:8000/api/hello/ "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTg3MTA5NTk2LCJqdGkiOiI5MGM5YjhmYThmZTI0YjMwODlkOWQ2YTRhMzQxYTg2MSIsInVzZXJfaWQiOjF9.zEmoMDiXUfgtor39MeBHUaXnJ0Hj8hNWSxd3tw97lZ8"
+$ http http://127.0.0.1:8000/api/hello/ "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTg3MTA5NTk2LCJqdGkiOiI5MGM5YjhmYThmZTI0YjMwODlkOWQ2YTRhMzQxYTg2MSIsInVzZXJfaWQiOjF9.zEmoMDiXUfgtor39MeBHUaXnJ0Hj8hNWSxd3tw97lZ8"
 
 #### Response
 {
